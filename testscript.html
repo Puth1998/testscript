@@ -32,11 +32,16 @@
 <body>
     <h2>Test Script</h2>
     
-    Name: <input type="text" name="name" size="25"><br>
-    Phone:<input type="tel" name="usrtel"><br>
-    E-mail: <input type="email" name="emailaddress"><br>
- 
-   
+    <form action="/testscritp/database.php" method="POST">
+      Name: <input type="text" name="name" size="25"><br>
+      Phone:<input type="phone" name="phone" size="25"><br>
+      E-mail: <input type="email" name="mail" size="25"><br>
+
+      <button type="submit" value="Send Message">submit</button>
+
+    </form>
+  
+    
 
     <script>
        
