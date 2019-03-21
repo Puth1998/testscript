@@ -1,13 +1,13 @@
 <?php
 // Create connection
-$conn = mysqli_connect("127.0.0.1", "root", "", "testscritpt");
+$conn = mysqli_connect("127.0.0.1", "root", "", "testscript");
 $conn -> set_charset("utf8");
 $name = $_POST["name"];
 $phone = $_POST["phone"];
 $mail = $_POST["mail"];
 
 
-$sql = "INSERT INTO info (Name_user, Phone_user , Email_user, )
+$sql = "INSERT INTO info (Name_user,Phone_user,Email_user)
 VALUES ('$name', '$phone', '$mail' )";
 
 
